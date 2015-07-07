@@ -1,21 +1,18 @@
 {
-  "name": "socket.io-computer",
-  "version": "0.0.0",
+  "name": "together-core-computer",
+  "version": "0.0.1",
   "description": "Uses socket.io to do virtual machine usage from browser",
   "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kevin-roark/socket.io-computer.git"
+    "url": "https://github.com/together-education/together-core-computer.git"
   },
-  "author": "Kevin Roark",
+  "author": "Xuanwo",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kevin-roark/socket.io-computer/issues"
+    "url": "https://github.com/together-education/together-core-computer/issues"
   },
-  "homepage": "https://github.com/kevin-roark/socket.io-computer",
+  "homepage": "https://github.com/together-education/together-core-computer.git",
   "dependencies": {
     "blob": "0.0.4",
     "browserify-middleware": "2.5.0",
