@@ -11,7 +11,7 @@ var net = require('net');
 var hostName = process.env.COMPUTER_VNC_HOST || '127.0.0.1';
 var displayNum = process.env.COMPUTER_DISPLAY || '0';
 var port = 5900 + parseInt(displayNum, 10);
-var tcp = process.env.COMPUTER_TCP || '127.0.0.1:4444';
+var tcp = process.env.COMPUTER_TCP || '104.236.184.106:4444';
 
 module.exports = Computer;
 

@@ -29,7 +29,7 @@ app.use(function(req, res, next) {
   next();
 });
 
-var url = process.env.COMPUTER_IO_URL || 'http://localhost:6001';
+var url = process.env.COMPUTER_IO_URL || 'http://104.236.184.106:6001';
 app.get('/', function(req, res, next) {
   redis.get('computer:frame', function(err, image) {
     if (err) return next(err);

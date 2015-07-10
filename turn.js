@@ -2,7 +2,7 @@ var turnQueue = [];
 var activeTurn = false;
 var redis = require('./redis').emu();
 
-var TURN_TIME = 15000;
+var TURN_TIME = 150000000;
 
 module.exports.push = function(sockid) {
   turnQueue.push(sockid);
