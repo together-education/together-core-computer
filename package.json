@@ -1,6 +1,6 @@
 {
   "name": "together-core-computer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Uses socket.io to do virtual machine usage from browser",
   "main": "app.js",
   "repository": {
